@@ -15,6 +15,9 @@ superbowlWin() should return the year when the win occurred
 
 */
 const superbowlWin = (recordArray) => {
-  recordArray.find(record =>
-    record.result === "W" ? record.year : undefined)
+  let recordResult = recordArray.find(record =>
+    record.result === "W")
+  if (recordResult.year) {
+    return recordResult.year;
+  }
 }
