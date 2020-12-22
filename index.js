@@ -22,5 +22,5 @@ const superbowlWin = (recordArray) => {
   // } else {
   //   return recordResult
   // }
-  recordResult !== undefined ? recordResult.year : recordResult
+  return recordResult !== undefined ? recordResult.year : recordResult
 }
