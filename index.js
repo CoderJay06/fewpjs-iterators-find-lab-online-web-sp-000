@@ -19,5 +19,7 @@ const superbowlWin = (recordArray) => {
     record.result === "W")
   if (recordResult.year) {
     return recordResult.year;
+  } else {
+    return recordResult
   }
 }
