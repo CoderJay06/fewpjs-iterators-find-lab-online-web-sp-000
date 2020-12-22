@@ -20,6 +20,6 @@ const superbowlWin = (recordArray) => {
   if (recordResult.year) {
     return recordResult.year;
   } else {
-    return recordResult
+    return undefined
   }
 }
