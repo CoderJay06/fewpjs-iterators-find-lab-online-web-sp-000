@@ -13,4 +13,6 @@ Use find() to test each Object to see if the result is "W" — a win!
 superbowlWin() should return the year when the win occurred (if it occurred at all!). If no win is found, it should return, sadly, undefined
 
 */
-const superbowlWin = ()
+const superbowlWin = (recordArray) => {
+  
+}
